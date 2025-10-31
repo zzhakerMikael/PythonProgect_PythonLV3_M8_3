@@ -2,12 +2,8 @@ import telebot
 from telebot import types
 from config import *
 
-# Замените TOKEN на токен вашего бота, полученный от @BotFather
-<<<<<<< HEAD
 bot = telebot.TeleBot(TOKEN)
-=======
-bot = telebot.TeleBot('Token')
->>>>>>> 6fbae97f516a2c026b6b5949d4ae3f363d0edc7a
+
 
 # Словарь с вопросами и вариантами ответов (ключ — номер вопроса, значение — кортеж: (вопрос, [ответы]))
 questions = {
